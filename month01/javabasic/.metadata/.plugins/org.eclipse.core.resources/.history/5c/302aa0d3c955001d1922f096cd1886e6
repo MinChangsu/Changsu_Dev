@@ -1,0 +1,15 @@
+package day14;
+
+public class strp {
+
+	public static void main(String[] args) {
+		String birth="<양>"+7+'.'+16;
+		
+		StringBuilder stb =new StringBuilder("123");
+		stb.append(45678);
+		System.out.println(stb);
+		stb.delete(0, 2);
+		System.out.println(stb);
+	}
+
+}

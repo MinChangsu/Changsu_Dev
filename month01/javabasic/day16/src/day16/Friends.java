@@ -1,0 +1,66 @@
+package day16;
+
+class Friend {
+	protected String name;
+	protected String phone;
+	
+	public Friend(String na,String ph) {
+		
+		name=na;
+		phone=ph;
+	}
+	public void showInfo() {
+		System.out.println("이름 : "+name);
+		System.out.println("전화 : "+phone);
+	}
+}
+class ComFriend extends Friend{
+	private String department;
+	public ComFriend(String na, String de, String ph) {
+		super(na,ph);
+		department=de;
+		
+	}
+	public void showInfo() {
+		super.showInfo();
+		System.out.println("부서: "+department);
+	}
+	
+}
+class UnivFriend extends Friend{
+	String major;
+	public UnivFriend(String na,String ph,String ma) {
+		
+		super(na,ph);
+		major=ma;
+	}
+	public void showInfo() {
+		 super.showInfo();
+		 System.out.println("전공 : "+major);
+	}
+	
+}
+public class Friends {
+
+	public static void main(String[] args) {
+		Friend f1=new Friend("김경모","1234");
+		ComFriend c1= new ComFriend("주진석","5678","코레일");
+		UnivFriend u1= new UnivFriend("김승현","5678","환경");
+		
+		
+		
+		Friend[] frns = new Friend[3];
+		int cnt=0;
+		frns[cnt++]=f1;
+		frns[cnt++]=c1;
+		frns[cnt++]=u1;
+		
+//		for(Friend a:frns) {
+//			a.showInfo();
+//		}
+		frns[0].toString();
+		
+		
+	}
+
+}

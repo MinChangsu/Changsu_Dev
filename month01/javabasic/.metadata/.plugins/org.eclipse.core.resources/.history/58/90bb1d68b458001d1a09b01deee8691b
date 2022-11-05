@@ -1,0 +1,34 @@
+package day16;
+
+class Cat{
+	String name;
+	Cat(){}
+	Cat(String name){
+		this.name=name;
+		
+	}
+	void punch() {
+		System.out.println("냥냥펀치");
+	
+}	
+}
+	class Tiger extends Cat{
+		Tiger(){ 
+			super();
+		} 
+		void punch() {
+			System.out.println("호랑이펀치");
+		}
+}
+
+public class review {
+
+	public static void main(String[] args) {
+		Cat c1 =new Cat("국희");
+		Tiger t1 =new Tiger();
+		Cat c2=new Tiger(); 
+		t1.punch();
+		c2.punch();		
+	}
+
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.net.Socket"/>
+    <fullyQualifiedTypeName name="java.lang.Float"/>
+    <fullyQualifiedTypeName name="day13.Qz01"/>
+    <fullyQualifiedTypeName name="java.awt.print.Printable"/>
+    <fullyQualifiedTypeName name="pack02.phone"/>
+    <fullyQualifiedTypeName name="zoo.Cat"/>
+    <fullyQualifiedTypeName name="animal.Bear"/>
+    <fullyQualifiedTypeName name="NumberP"/>
+    <fullyQualifiedTypeName name="test.gook"/>
+    <fullyQualifiedTypeName name="day16.Footballplayer"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="day16.SprinterDriver"/>
+    <fullyQualifiedTypeName name="java.math.BigInteger"/>
+    <fullyQualifiedTypeName name="java.util.random.RandomGenerator"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+</qualifiedTypeNameHistroy>

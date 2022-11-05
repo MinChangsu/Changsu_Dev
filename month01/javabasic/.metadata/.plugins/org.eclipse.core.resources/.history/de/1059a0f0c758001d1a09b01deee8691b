@@ -1,0 +1,60 @@
+package day16;
+
+//interface Player{
+//	void training();
+//}
+//class Footballplayer implements Player{
+//	@Override
+//	public void  training(){
+//		System.out.println("열심히하자");
+//		}
+//	}
+//class Baseballplayer implements Player{
+//	public void training() {
+//		System.out.println("빡세게하자");
+//	}
+//}
+interface Printable{
+	void print(String doc);
+}
+class SprinterDriver implements Printable{
+	@Override
+	public void print(String doc) {
+		System.out.println("From Samsung printer");
+		System.out.println(doc);
+	}
+}
+class LprinterDriver implements Printable{
+	int cnt=0;
+	@Override
+	public void print(String doc) {
+		System.out.println("From LG printer");
+		System.out.println(doc);
+		cnt++;
+	}
+}
+
+
+
+
+
+
+public class Interface01 {
+
+	public static void main(String[] args) {
+		SprinterDriver sp =new SprinterDriver();
+		LprinterDriver lp =new LprinterDriver();
+		LprinterDriver lp1 =new LprinterDriver();
+		sp.print("ㅎㅇ");
+		lp.print("ㅎㅇ");
+		lp.print("ㅎㅇ");
+		lp1.print("ㅎㅇ");
+		System.out.println(lp.cnt);
+		System.out.println(lp1.cnt);
+		Printable pr =new LprinterDriver();
+		pr.print("fdfdf");
+
+		
+	}
+
+}

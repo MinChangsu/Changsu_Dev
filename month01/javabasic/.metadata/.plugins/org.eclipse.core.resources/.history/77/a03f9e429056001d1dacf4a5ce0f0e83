@@ -1,0 +1,22 @@
+package day15;
+
+class Water{
+	void drinking() {
+		System.out.println("마신다");
+	}}
+class Hotwater extends Water{
+	void drinking() {
+	System.out.println("천천히마신다");
+	}
+}
+
+
+public class inher2 {
+
+	public static void main(String[] args) {
+		Hotwater h1 =new Hotwater();
+		h1.drinking();
+
+	}
+
+}

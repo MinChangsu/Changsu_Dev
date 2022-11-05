@@ -1,0 +1,18 @@
+package day14;
+class tiger{
+	String name;
+	tiger(){
+		this("호돌");
+}
+	tiger(String n){
+		name=n;
+		
+	}
+}
+public class checkthis {
+	tiger t1=new tiger();
+	tiger t2=new tiger("티거");
+
+	
+
+}

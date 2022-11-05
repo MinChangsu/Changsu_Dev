@@ -1,0 +1,13 @@
+package prpack;
+import java.util.*;
+public class Login {
+
+	public static void main(String[] args) {
+		Map user= new TreeMap();
+		user.put("mgs1527", "81fa30619@");
+		user.put("alsrudtj1527", "81fa30619@A");
+		user.put("mgs115", "81fa30619@@");
+		System.out.println(user);
+	}
+
+}

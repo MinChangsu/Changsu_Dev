@@ -1,0 +1,16 @@
+package day16;
+
+
+abstract class Tree{
+	abstract void makeFruit();
+}
+
+
+public class Interface03 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

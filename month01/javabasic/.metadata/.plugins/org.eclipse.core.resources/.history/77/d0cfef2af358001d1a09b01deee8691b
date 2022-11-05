@@ -1,0 +1,17 @@
+package day16;
+class Inum{
+	int num;
+	Inum(int n){
+		num=n;
+	}
+}
+public class Equals01 {
+
+	public static void main(String[] args) {
+		Inum a=new Inum(10);
+		Inum b=new Inum(10);
+		System.out.println(a==b);
+		System.out.println(a.equals(b));
+	}
+
+}

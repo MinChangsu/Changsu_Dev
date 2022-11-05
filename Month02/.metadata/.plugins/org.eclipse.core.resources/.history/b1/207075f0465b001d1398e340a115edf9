@@ -1,0 +1,31 @@
+package day18;
+//멤버클래스 Bean을 포함한 외부 클래스 Coffee
+class Coffee{
+	void getCoffee() {
+		new Bean().thisis();
+	}
+	class Bean{
+		void thisis() {
+			System.out.println("에티오피아 원두");
+		}
+	}
+	
+}
+class outer{
+	private static int num =0;
+	static class Inum{
+	void shownum(){
+		System.out.println(num);}
+	}
+	}
+
+public class nested01 {
+
+	public static void main(String[] args) {
+		outer.Inum ob=new outer.Inum();
+		ob.shownum();
+		Coffee c1 = new Coffee();
+		c1.getClass();
+	}
+
+}

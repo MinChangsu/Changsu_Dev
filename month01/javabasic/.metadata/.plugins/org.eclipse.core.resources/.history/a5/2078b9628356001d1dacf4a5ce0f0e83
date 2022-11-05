@@ -1,0 +1,27 @@
+package day15;
+
+class Woman{
+	String name;
+	void showName() {
+	System.out.println("내 이름은 "+name);
+	}
+}
+class BusinessWoman extends Woman{
+	
+	
+}
+
+
+
+
+
+public class Inher {
+
+	public static void main(String[] args) {
+		BusinessWoman b1 =new BusinessWoman();
+		b1.name="김태희";
+		b1.showName();
+
+	}
+
+}

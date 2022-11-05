@@ -1,0 +1,20 @@
+package day16;
+
+
+abstract class Tree{
+String name;
+	abstract void makeFruit();
+	void growingup() {
+		System.out.println("나무가쑥쑥자랍니다.");
+	}
+}
+
+
+public class Interface03 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

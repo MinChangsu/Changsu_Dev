@@ -1,0 +1,13 @@
+package day14;
+
+public class showstring {
+
+	public static void main(String[] args) {
+		
+		String t1="안녕하세요";
+		
+		System.out.println(t1);
+		System.out.println(t1.length());
+	}
+
+}

@@ -1,0 +1,30 @@
+package day17;
+import java.util.*;
+public class Random01 {
+
+	public static void main(String[] args) {
+	Random rn =new Random();
+	int n1=1;
+	int n2=46;
+	int m=0;
+	int[] lo=new int[6];
+	while(Arrays.asList(lo).contains(0)==false) {
+		int num=rn.nextInt(n1,n2);
+		if(Arrays.asList(lo).contains(num)==false) {
+			lo[m]=num;
+			m++;}
+	
+	}
+	for(int a:lo) {
+		System.out.print(a);
+	}
+	
+	
+	
+	
+	
+	}
+
+	}
+
+

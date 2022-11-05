@@ -1,0 +1,11 @@
+package day14;
+
+public class strp {
+
+	public static void main(String[] args) {
+		String birth="<양>"+7+'.'+16;
+		
+		System.out.println(birth);
+	}
+
+}

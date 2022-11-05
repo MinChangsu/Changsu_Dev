@@ -1,0 +1,39 @@
+package day15;
+
+class man{
+	String name;
+	int age;
+	
+	public man(String n,int a){
+		name=n;
+		age=a;}
+	public void intro(){
+		System.out.printf("저는 %s이고 %d살입니다.\n",name,age);
+	}
+}
+class bman extends man{
+	String comp;
+	bman(String name,int age ,String comp){
+		super(name,age);
+		this.comp=comp;
+	}
+	void intro2() {
+		super.intro();
+		System.out.printf("제 회사는 %s입니다\n",comp);
+	}
+}
+
+
+
+
+
+
+public class clc {
+
+	public static void main(String[] args) {
+		bman p =new bman("민경서",27,"백수");
+		//p.intro();
+		p.intro2();
+	}
+
+}

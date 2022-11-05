@@ -1,0 +1,32 @@
+package day16;
+
+interface Player{
+	void training();
+}
+class Footballplayer implements Player{
+	@Override
+	public void  training(){
+		System.out.println("열심히하자");
+		}
+	}
+class Baseballplayer implements Player{
+	public void training() {
+		System.out.println("빡세게하자");
+	}
+}
+
+
+
+
+
+
+
+public class Interface01 {
+
+	public static void main(String[] args) {
+		Player ply=new Footballplayer();
+		ply.training();
+		
+	}
+
+}

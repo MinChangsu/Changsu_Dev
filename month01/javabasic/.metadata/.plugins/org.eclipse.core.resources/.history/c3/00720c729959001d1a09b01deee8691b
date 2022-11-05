@@ -1,0 +1,18 @@
+package day17;
+import java.util.*;
+public class Random01 {
+
+	public static void main(String[] args) {
+	Random rn =new Random();
+	int n1=1;
+	int n2=46;
+	int num=rn.nextInt(n1,n2);
+	System.out.println(num);
+	
+	
+	
+	}
+
+	}
+
+

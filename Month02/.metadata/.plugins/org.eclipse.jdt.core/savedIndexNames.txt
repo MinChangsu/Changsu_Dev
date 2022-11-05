@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/Users/changsu/Desktop/Ai_Developer_Min/Month02/.metadata/.plugins/org.eclipse.jdt.core
+1785236430.index
+1865797976.index
+493861720.index
+2379261641.index

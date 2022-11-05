@@ -1,0 +1,16 @@
+package day19;
+import java.util.*;
+public class Rambda01 {
+
+	public static void main(String[] args) {
+		List<String>li =new ArrayList<>();
+		li.add("Robot");
+		li.add("Lambda");
+		li.add("Box");
+		
+		Collections.sort(li);
+		System.out.println(li);
+
+	}
+
+}

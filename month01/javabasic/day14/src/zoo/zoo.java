@@ -1,0 +1,17 @@
+package zoo;
+import animal.Bear;
+public class zoo {
+
+	public static void main(String[] args) {
+	Bear b1= new Bear();
+	b1.name="곰";
+	//b1.age=17;
+	//b1.color="빨강";
+	b1.myname();
+	b1.setage(17);
+	b1.setcolor("검정");
+	b1.myage();
+	b1.intro();
+	
+	}
+}

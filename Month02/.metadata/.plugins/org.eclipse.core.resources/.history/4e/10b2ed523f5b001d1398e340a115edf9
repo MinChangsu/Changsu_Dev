@@ -1,0 +1,15 @@
+package day18;
+
+public class QZ02 {
+	public static int sum10(int...n) {
+		int s=0;
+		for(int i:n) {
+			s+=i;
+		}
+		return s;
+	}
+	public static void main(String[] args) {
+		System.out.println(sum10(1,2,3,4,5,6,7,8,9,10));
+	}
+
+}

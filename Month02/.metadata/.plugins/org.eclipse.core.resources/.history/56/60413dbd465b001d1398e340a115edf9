@@ -1,0 +1,20 @@
+package day18;
+
+
+class outer{
+	private static int num =0;
+	static class Inum{
+	void shownum(){
+		System.out.println(num);
+	}
+	}
+	}
+
+public class nested01 {
+
+	public static void main(String[] args) {
+		outer.Inum ob=new outer.Inum();
+		ob.shownum();
+	}
+
+}
