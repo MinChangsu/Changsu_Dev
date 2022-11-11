@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시계모양만들기</title>
+    <style>
+        body{margin: 0;}
+        
+        .clock{
+            color: red;
+            background-color: black;
+            width: 200px;
+            margin: 5px auto;
+            border: 2px solid black;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .buttons{
+            width: 110px;
+            margin: auto;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="clock">
+            <h1 id="time">15:20:00</h1>
+        </div>
+        <div class="buttons">
+        <button id="stop">STOP</button>
+        <button id="go">GO</button>
+        </div>
+    </div>
+</body>
+</html>
