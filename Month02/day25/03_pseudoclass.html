@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>의사 클래스</title>
+<style>
+    input{height: 20px;}
+    input:focus{
+        background-color: skyblue;
+        outline: none;
+    }
+    input:disabled{
+        display: none;
+    }
+    button{height: 20px;
+    width: 80px;
+    color: white;
+    background-color: tomato;
+    border: none;}
+    button:hover{
+        background-color: orangered;
+        cursor: pointer;
+    }
+    button:active{
+        color: gray;
+        font-size: 0.6em;
+    }
+    li:nth-child(2n-1){color: brown;}
+    li:first-child{color : red;}
+    li:last-child{color: teal;}
+</style>
+</head>
+<body>
+    <h2>가장 먹고싶은 음식은?</h2>
+    <input type="text" placeholder="음식명">
+    <button>등록</button>
+    <ul>
+        <li>삼겹살</li>
+        <li>짜장면</li>
+        <li>볶음밥</li>
+        <li>햄버거</li>
+        <li>떡볶이</li>
+    </ul>
+
+</body>
+</html>
