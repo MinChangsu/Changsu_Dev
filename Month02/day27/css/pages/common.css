@@ -1,0 +1,16 @@
+@font-face {
+    all: inherit;
+    font-family: 'KyoboHandwriting2020A';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} *{ 
+
+    -webkit-appearance: none;
+    font-family:"KyoboHandwriting2020A";
+box-sizing: border-box;
+color: whitesmoke;
+}
+body{margin: 0;
+height: 100vh;
+min-width: 300px;}

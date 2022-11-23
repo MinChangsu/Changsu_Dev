@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'KOTRAHOPE';
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+}
+
+body{width: 100%;
+    margin: 0; 
+    background-image: url(./images/class.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app{
+    position: relative;
+    bottom: 80px;
+    left: 270px;
+    width: 800px;
+    height: 500px;
+    border: 10px solid saddlebrown;
+    border-radius: 16px;
+    background-image: url(./images/chilpan2.jpg);
+    background-size: 100%;
+}
+
+.app  > h1{
+    font-size: 2em;
+    text-align: center;
+    margin: 10px 5px;
+    color: white;
+    border-bottom: 0.5px solid rgb(234, 234, 234);
+}
+
+ul{
+    max-height: 300px;
+    overflow: auto;
+}
+
+ul > li{
+    font-size: 2em;
+    cursor: pointer;
+    position: relative;
+    
+    list-style-type:none;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 6px;
+    color: white;
+    
+    
+}
+
+
+
+ul > li > span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px; 
+    height: 16px;
+    border-radius: 8px;
+    background-color: palevioletred;
+    position: absolute;
+    left: -20px;
+    bottom: 15px;
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+}
+input{
+    font-size: 1.4em;
+    margin: 0;
+    border: none;
+    height: 45px;
+}
+input[type="text"]{
+    width: 600px;
+    padding-left: 10px;
+    
+}
+input[type="text"]:focus{
+    outline: none;
+}
+input[type="submit"]{
+    cursor: pointer;
+    width: 80px;
+    border-radius: 8px;
+    background-color: rgb(254, 229, 77);
+}
+
+.done{
+    text-decoration: line-through palevioletred;
+}
+
+.done::after{
+    border-left: 16px solid rgb(234, 234, 234);
+}

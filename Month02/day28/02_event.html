@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이벤트처리연습</title>
+</head>
+<body>
+    <form id="form">
+        <input name="id" type="text" placeholder="아이디"><br>
+        <input name="pw" type="password" placeholder="비밀번호"><br>
+        <input type="submit" value="로그인">
+    </form>
+
+    <button>PUSH</button>
+    <select id="select">
+        <option value="star">스타벅스</option>
+        <option value="bean">커피빈</option>
+        <option value="pasc">파스쿠찌</option>
+        <option value="twos">투썸플레이스</option>
+
+    </select>
+    <script>
+        let select=document.querySelector("select")
+        select.addEventListener("change",function(e){
+            
+            console.log(e.target.options[e.target.selectedIndex].textContent)
+        })
+        push=document.querySelector("button")
+        push.style.width="100px"
+        push.style.height="20px"
+        push.style.border="none"
+        push.style.color="white"
+        push.style.backgroundColor="black"
+        push.addEventListener("click",function(){
+            push.style.color="red"
+        push.style.backgroundColor="black"
+        })
+        push.addEventListener("mouseenter",function(){
+        this.style.color="teal"
+        this.style.backgroundColor="black"})
+        push.addEventListener("mouseleave",function(){push.style.color="orange"
+        push.style.backgroundColor="black"})
+
+
+        let form=document.getElementById("form")
+       
+        form.addEventListener("submit",function(event){
+            event.preventDefault()//기존의 기능은 차단한다
+            console.log(event.target.id.value)//this
+            console.log(event.target.pw)//this
+            console.log(event.target)//this
+        })
+    </script>
+</body>
+</html>

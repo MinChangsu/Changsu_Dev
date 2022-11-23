@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'CookieRun-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{ 
+  font-family: 'CookieRun-Regular';
+  box-sizing: border-box;
+}
+h3{color:white}
+html{
+  font-size: 32px;
+}
+.con{margin: 0;
+    padding: 0;
+    width: 350px;
+height: 50px;
+background-image: url(./images/dang1.png);
+background-size: 100% 100%;}
+.con2{margin: 0;
+    padding: 0;
+    width: 350px;
+height: 50px;
+background-image: url(./images/dang2.png);
+background-size: 100%;
+background-repeat: no-repeat;}
+body{background-size: 100% 100%;
+    background-image: url(./images/room.jpg);
+    background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+}
+
+.container{
+  width: 350px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.lotto{
+  text-align: center;
+}
+
+.numbers{
+  width: 350px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+.eachnum{
+  font-size: 0.75em;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  color: white;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  font-size: 0.5em;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  background-color: salmon;
+  cursor: pointer;
+}
+
+button:active{
+  font-size: 0.6em;
+  width: 105px;
+  height: 42px;
+}
+#img1
+{
+position:absolute;
+top:500px;
+width: 350px;
+height: 600px;
+background-color: transparent;
+background-image: url(./images/lim2.png);
+background-size: 100%;
+background-repeat: no-repeat;
+}

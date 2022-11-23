@@ -4,10 +4,16 @@ package page3;
 //주어질 때, i부터 j까지 k가 몇 번 등장하는지 return 
 //하도록 solution 함수를 완성해주세요.
 import java.util.*;
+import java.util.stream.*;
 public class Qz53 {
 	public int solution(int i, int j, int k) {
         int answer = 0;
-        
+     String a=Arrays.toString(IntStream.rangeClosed(i, j).toArray());
+     String[] b=a.split("");
+     for(String s:b) {
+    	 if(s.equals(String.valueOf(k)))
+    		 answer+=1;
+     }
         return answer;
     }
 	public static void main(String[] args) {
